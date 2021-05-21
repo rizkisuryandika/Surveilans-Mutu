@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Surveilans-Mutu", "Surveilans-Mutu\Surveilans-Mutu.vbproj", "{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A3B076E-84D5-48B8-AB90-8F246FAF6770}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Debug|x86.ActiveCfg = Debug|x86
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Debug|x86.Build.0 = Debug|x86
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Release|x86.ActiveCfg = Release|x86
+		{A5B98F51-0F29-43F0-A8A0-7DA12D6285AF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09819351-EF99-452B-B561-D8691DC82FE6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Surveilans_Mutu.My.MySettings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_INDIKATOR_DETAILTableAdapter" GeneratorDataComponentClassName="V_INDIKATOR_DETAILTableAdapter" Name="V_INDIKATOR_DETAIL" UserDataComponentName="V_INDIKATOR_DETAILTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="V_INDIKATOR_DETAIL" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "IDR", "NOTRANS", "IDUPF", "NMUPF", "TGLTRANS", "NILAI", "IDINDIKATOR", "URAIAN", "NILAIKLP", "IDKELOMPOK", "NMKELOMPOK", "ISIAN", "IDFORM", "NMFORM" FROM "V_INDIKATOR_DETAIL"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDR" DataSetColumn="IDR" />
+              <Mapping SourceColumn="NOTRANS" DataSetColumn="NOTRANS" />
+              <Mapping SourceColumn="IDUPF" DataSetColumn="IDUPF" />
+              <Mapping SourceColumn="NMUPF" DataSetColumn="NMUPF" />
+              <Mapping SourceColumn="TGLTRANS" DataSetColumn="TGLTRANS" />
+              <Mapping SourceColumn="NILAI" DataSetColumn="NILAI" />
+              <Mapping SourceColumn="IDINDIKATOR" DataSetColumn="IDINDIKATOR" />
+              <Mapping SourceColumn="URAIAN" DataSetColumn="URAIAN" />
+              <Mapping SourceColumn="NILAIKLP" DataSetColumn="NILAIKLP" />
+              <Mapping SourceColumn="IDKELOMPOK" DataSetColumn="IDKELOMPOK" />
+              <Mapping SourceColumn="NMKELOMPOK" DataSetColumn="NMKELOMPOK" />
+              <Mapping SourceColumn="ISIAN" DataSetColumn="ISIAN" />
+              <Mapping SourceColumn="IDFORM" DataSetColumn="IDFORM" />
+              <Mapping SourceColumn="NMFORM" DataSetColumn="NMFORM" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_INDIKATOR_DETAIL" msprop:Generator_TableClassName="V_INDIKATOR_DETAILDataTable" msprop:Generator_TableVarName="tableV_INDIKATOR_DETAIL" msprop:Generator_TablePropName="V_INDIKATOR_DETAIL" msprop:Generator_RowDeletingName="V_INDIKATOR_DETAILRowDeleting" msprop:Generator_RowChangingName="V_INDIKATOR_DETAILRowChanging" msprop:Generator_RowEvHandlerName="V_INDIKATOR_DETAILRowChangeEventHandler" msprop:Generator_RowDeletedName="V_INDIKATOR_DETAILRowDeleted" msprop:Generator_UserTableName="V_INDIKATOR_DETAIL" msprop:Generator_RowChangedName="V_INDIKATOR_DETAILRowChanged" msprop:Generator_RowEvArgName="V_INDIKATOR_DETAILRowChangeEvent" msprop:Generator_RowClassName="V_INDIKATOR_DETAILRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDR" msprop:Generator_ColumnVarNameInTable="columnIDR" msprop:Generator_ColumnPropNameInRow="IDR" msprop:Generator_ColumnPropNameInTable="IDRColumn" msprop:Generator_UserColumnName="IDR" type="xs:int" minOccurs="0" />
+              <xs:element name="NOTRANS" msprop:Generator_ColumnVarNameInTable="columnNOTRANS" msprop:Generator_ColumnPropNameInRow="NOTRANS" msprop:Generator_ColumnPropNameInTable="NOTRANSColumn" msprop:Generator_UserColumnName="NOTRANS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDUPF" msprop:Generator_ColumnVarNameInTable="columnIDUPF" msprop:Generator_ColumnPropNameInRow="IDUPF" msprop:Generator_ColumnPropNameInTable="IDUPFColumn" msprop:Generator_UserColumnName="IDUPF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NMUPF" msprop:Generator_ColumnVarNameInTable="columnNMUPF" msprop:Generator_ColumnPropNameInRow="NMUPF" msprop:Generator_ColumnPropNameInTable="NMUPFColumn" msprop:Generator_UserColumnName="NMUPF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGLTRANS" msprop:Generator_ColumnVarNameInTable="columnTGLTRANS" msprop:Generator_ColumnPropNameInRow="TGLTRANS" msprop:Generator_ColumnPropNameInTable="TGLTRANSColumn" msprop:Generator_UserColumnName="TGLTRANS" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NILAI" msprop:Generator_ColumnVarNameInTable="columnNILAI" msprop:Generator_ColumnPropNameInRow="NILAI" msprop:Generator_ColumnPropNameInTable="NILAIColumn" msprop:Generator_UserColumnName="NILAI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDINDIKATOR" msprop:Generator_ColumnVarNameInTable="columnIDINDIKATOR" msprop:Generator_ColumnPropNameInRow="IDINDIKATOR" msprop:Generator_ColumnPropNameInTable="IDINDIKATORColumn" msprop:Generator_UserColumnName="IDINDIKATOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URAIAN" msprop:Generator_ColumnVarNameInTable="columnURAIAN" msprop:Generator_ColumnPropNameInRow="URAIAN" msprop:Generator_ColumnPropNameInTable="URAIANColumn" msprop:Generator_UserColumnName="URAIAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NILAIKLP" msprop:Generator_ColumnVarNameInTable="columnNILAIKLP" msprop:Generator_ColumnPropNameInRow="NILAIKLP" msprop:Generator_ColumnPropNameInTable="NILAIKLPColumn" msprop:Generator_UserColumnName="NILAIKLP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDKELOMPOK" msprop:Generator_ColumnVarNameInTable="columnIDKELOMPOK" msprop:Generator_ColumnPropNameInRow="IDKELOMPOK" msprop:Generator_ColumnPropNameInTable="IDKELOMPOKColumn" msprop:Generator_UserColumnName="IDKELOMPOK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NMKELOMPOK" msprop:Generator_ColumnVarNameInTable="columnNMKELOMPOK" msprop:Generator_ColumnPropNameInRow="NMKELOMPOK" msprop:Generator_ColumnPropNameInTable="NMKELOMPOKColumn" msprop:Generator_UserColumnName="NMKELOMPOK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISIAN" msprop:Generator_ColumnVarNameInTable="columnISIAN" msprop:Generator_ColumnPropNameInRow="ISIAN" msprop:Generator_ColumnPropNameInTable="ISIANColumn" msprop:Generator_UserColumnName="ISIAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDFORM" msprop:Generator_ColumnVarNameInTable="columnIDFORM" msprop:Generator_ColumnPropNameInRow="IDFORM" msprop:Generator_ColumnPropNameInTable="IDFORMColumn" msprop:Generator_UserColumnName="IDFORM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NMFORM" msprop:Generator_ColumnVarNameInTable="columnNMFORM" msprop:Generator_ColumnPropNameInRow="NMFORM" msprop:Generator_ColumnPropNameInTable="NMFORMColumn" msprop:Generator_UserColumnName="NMFORM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
